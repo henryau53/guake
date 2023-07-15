@@ -6,6 +6,7 @@
 # 甘露(Gan Lu) <rhythm.gan@gmail.com>, 2010.
 # 吴新宇(Xinyu Ng) <wuxinyumrx@gmail.com>, 2016.
 # 庄秋彬(zqb-all) <zhuangqiubin@gmail.com>, 2017.
+# 姚生(Henry Yau) <henryau53@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Guake 0.4.5\n"
@@ -60,15 +61,15 @@ msgstr "查找..."
 
 #: ../guake/data/guake.glade.h:7
 msgid "New Tab"
-msgstr "新标签页"
+msgstr "新建标签"
 
 #: ../guake/data/guake.glade.h:8
 msgid "Rename Tab"
-msgstr "重命名标签页"
+msgstr "重命名标签"
 
 #: ../guake/data/guake.glade.h:9
 msgid "Close Tab"
-msgstr "关闭标签页"
+msgstr "关闭标签"
 
 #: ../guake/data/guake.glade.h:10
 msgid "Open link..."
@@ -96,20 +97,20 @@ msgstr "Guake！"
 
 #: ../guake/data/guake.glade.h:16
 msgid "Add a new tab"
-msgstr "新增标签页"
+msgstr "新建标签"
 
 #: ../guake/data/prefs.glade.h:1
 msgid "Guake Preferences"
-msgstr "Guake 首选项"
+msgstr "Guake首选项"
 
 #: ../guake/data/prefs.glade.h:2
 msgid "<span size=\"18000\" color=\"black\"><b>Guake properties</b></span>"
-msgstr "<span size=\"18000\" color=\"black\"><b>Guake 属性</b></span>"
+msgstr "<span size=\"18000\" color=\"black\"><b>Guake属性</b></span>"
 
 #: ../guake/data/prefs.glade.h:3
 msgid ""
 "<span color=\"black\">Customize behavior and appearance of Guake!</span>"
-msgstr "<span color=\"black\">自定义 Guake 的行为和外观！</span>"
+msgstr "<span color=\"black\">自定义Guake的行为和外观！</span>"
 
 #: ../guake/data/prefs.glade.h:4
 msgid ""
@@ -130,7 +131,7 @@ msgstr ""
 "此路径指定的脚本将会在Guake启动时自动执行，除非启动时带上参数禁止启动脚本 --"
 "no-startup-script.\n"
 "\n"
-"这通常用于基于命令行配置Guake:\n"
+"这通常用于基于命令行配置Guake：\n"
 "\n"
 "#!/bin/bash\n"
 "\n"
@@ -161,11 +162,11 @@ msgstr "告警时播放系统告警音"
 
 #: ../guake/data/prefs.glade.h:20
 msgid "Path to script executed on Guake start:"
-msgstr "Guake启动时执行脚本路径:"
+msgstr "Guake启动时执行脚本路径："
 
 #: ../guake/data/prefs.glade.h:21
 msgid "Prompt on close tab:"
-msgstr "退出时提示:"
+msgstr "退出时提示："
 
 #: ../guake/data/prefs.glade.h:22
 msgid ""
@@ -191,7 +192,7 @@ msgstr "在光标所在显示器显示"
 
 #: ../guake/data/prefs.glade.h:28
 msgid "Appear on display:"
-msgstr "选择显示器:"
+msgstr "选择显示器："
 
 #: ../guake/data/prefs.glade.h:29
 msgid "Place tabs on top"
@@ -215,7 +216,7 @@ msgstr "显示标签栏"
 
 #: ../guake/data/prefs.glade.h:34
 msgid "Start fullscreen"
-msgstr "启动默认全屏"
+msgstr "启动全屏"
 
 #: ../guake/data/prefs.glade.h:35
 msgid "Use VTE titles for tab names"
@@ -223,7 +224,7 @@ msgstr "使用VTE标题作为标签名"
 
 #: ../guake/data/prefs.glade.h:37
 msgid "Max tab name length:"
-msgstr "最大标签名长度:"
+msgstr "标签名最大长度："
 
 #: ../guake/data/prefs.glade.h:38
 msgid "<b>Main Window</b>"
@@ -231,15 +232,15 @@ msgstr "<b>主窗口</b>"
 
 #: ../guake/data/prefs.glade.h:39
 msgid "Left"
-msgstr "左"
+msgstr "居左"
 
 #: ../guake/data/prefs.glade.h:40
 msgid "Center"
-msgstr "中"
+msgstr "居中"
 
 #: ../guake/data/prefs.glade.h:41
 msgid "Right"
-msgstr "右"
+msgstr "居右"
 
 #: ../guake/data/prefs.glade.h:42
 msgid "<b>Main Window Horizontal Alignment</b>"
@@ -255,7 +256,7 @@ msgstr "<b>主窗口宽度</b>"
 
 #: ../guake/data/prefs.glade.h:45
 msgid "Custom command file path: "
-msgstr "自定义命令路径: "
+msgstr "自定义命令路径："
 
 #: ../guake/data/prefs.glade.h:46
 msgid "Please select a json file"
@@ -267,23 +268,23 @@ msgstr "常规"
 
 #: ../guake/data/prefs.glade.h:48
 msgid "Default interpreter:"
-msgstr "默认解释器:"
+msgstr "默认解释器："
 
 #: ../guake/data/prefs.glade.h:49
 msgid "_Run command as a login shell"
-msgstr "运行命令作为登录外壳"
+msgstr "运行命令作为登录Shell"
 
 #: ../guake/data/prefs.glade.h:50
 msgid "_Open new tab in current directory"
-msgstr "在当前目录打开新标签页"
+msgstr "在当前目录打开新标签"
 
 #: ../guake/data/prefs.glade.h:51
 msgid "<b>Shell</b>"
-msgstr "<b>外壳</b>"
+msgstr "<b>Shell</b>"
 
 #: ../guake/data/prefs.glade.h:52
 msgid "Shell"
-msgstr "外壳"
+msgstr "Shell"
 
 #: ../guake/data/prefs.glade.h:53
 msgid "Show scrollbar"
@@ -291,7 +292,7 @@ msgstr "显示滚动条"
 
 #: ../guake/data/prefs.glade.h:54
 msgid "Scrollback lines:"
-msgstr "回卷行数："
+msgstr "回滚行数："
 
 #: ../guake/data/prefs.glade.h:55
 msgid "On output"
@@ -299,7 +300,7 @@ msgstr "输出时"
 
 #: ../guake/data/prefs.glade.h:56
 msgid "On key stroke"
-msgstr "键敲下时"
+msgstr "敲下按键时"
 
 #: ../guake/data/prefs.glade.h:57
 msgid "<b>Scroll</b>"
@@ -311,7 +312,7 @@ msgstr "滚屏"
 
 #: ../guake/data/prefs.glade.h:59
 msgid "Use the system fixed width font"
-msgstr "使用系统的等宽字体"
+msgstr "使用系统固定宽度字体"
 
 #: ../guake/data/prefs.glade.h:60
 msgid "Font:"
@@ -327,7 +328,7 @@ msgstr "选择字体"
 
 #: ../guake/data/prefs.glade.h:63
 msgid "Text color:"
-msgstr "文字颜色："
+msgstr "文本颜色："
 
 #: ../guake/data/prefs.glade.h:64
 msgid "Background color:"
@@ -335,7 +336,7 @@ msgstr "背景颜色："
 
 #: ../guake/data/prefs.glade.h:65
 msgid "Cursor shape:"
-msgstr "光标形状:"
+msgstr "光标形状："
 
 #: ../guake/data/prefs.glade.h:66
 msgid ""
@@ -343,8 +344,8 @@ msgid ""
 "I-Beam\n"
 "Underline"
 msgstr ""
-"粗条状\n"
-"细线状\n"
+"块状\n"
+"I状\n"
 "下划线"
 
 #: ../guake/data/prefs.glade.h:69
@@ -359,11 +360,11 @@ msgstr ""
 
 #: ../guake/data/prefs.glade.h:72
 msgid "Cursor blink mode:"
-msgstr "光标闪动类型:"
+msgstr "光标闪烁类型："
 
 #: ../guake/data/prefs.glade.h:73
 msgid "Allow bold font"
-msgstr "允许使用粗体"
+msgstr "允许使用加粗字体"
 
 #: ../guake/data/prefs.glade.h:74
 msgid "<b>Palette</b>"
@@ -391,7 +392,7 @@ msgstr "使用调色板设置的字体和背景颜色"
 
 #: ../guake/data/prefs.glade.h:80
 msgid "Demo:"
-msgstr "样例："
+msgstr "示例："
 
 #: ../guake/data/prefs.glade.h:81
 msgid "<b>Effects</b>"
@@ -421,8 +422,7 @@ msgid ""
 "extract filename below.</small>"
 msgstr ""
 "<small>快速打开是一项允许您使用喜欢的编辑器打开文件的功能，只需要在文件名出现"
-"在终端时点击它即可。符合下方模式的字符串将被识别为可快速打开的文件名字。</"
-"small>"
+"在终端时点击它即可。符合下方模式的字符串将被识别为可快速打开的文件名字。</small>"
 
 #: ../guake/data/prefs.glade.h:87
 msgid "Enable Quick Open when Ctrl+clicking on a filename in the terminal"
@@ -459,8 +459,8 @@ msgid ""
 "Here is the list of supported patterns: (to add your own, please contact the "
 "Guake's authors)"
 msgstr ""
-"以下为当前文件名匹配模式的列表: (如果想加入您自己的一些匹配模式，请联系Guake"
-"作者)"
+"以下为当前文件名匹配模式的列表：（如果想加入您自己的一些匹配模式，请联系Guake"
+"作者）"
 
 #: ../guake/data/prefs.glade.h:98
 msgid "<b>Quick Open</b>"
@@ -476,11 +476,11 @@ msgid ""
 "To disable a shortcut, press the \"Backspace\" key."
 msgstr ""
 "单击以修改快捷键。\n"
-"使用退格键\"Backspace\" 可禁用某个快捷键。"
+"使用退格键\"Backspace\"可禁用某个快捷键。"
 
 #: ../guake/data/prefs.glade.h:102
 msgid "Keyboard shortcuts"
-msgstr "键盘快捷键"
+msgstr "快捷键"
 
 #: ../guake/data/prefs.glade.h:103
 msgid ""
@@ -499,7 +499,7 @@ msgid ""
 "Control-H"
 msgstr ""
 "ASCII DEL\n"
-"Escape 序列\n"
+"Escape sequence\n"
 "Control-H"
 
 #: ../guake/data/prefs.glade.h:107
@@ -527,8 +527,7 @@ msgid ""
 "<small>In this dialog you can attach your own command or script to various "
 "guake events</small>"
 msgstr ""
-"<small>在这个对话框中，您可以将您的自定义命令或脚本绑定到各种guake事件</"
-"small>"
+"<small>在这个对话框中，您可以将您的自定义命令或脚本绑定到各种guake事件</small>"
 
 #: ../guake/data/prefs.glade.h:113
 msgid ""
@@ -540,7 +539,7 @@ msgstr ""
 
 #: ../guake/data/prefs.glade.h:115
 msgid "On show:"
-msgstr "显示时:"
+msgstr "显示时："
 
 #: ../guake/data/prefs.glade.h:116
 msgid "<b>Hooks</b>"
@@ -553,7 +552,7 @@ msgstr "钩子"
 #: ../src/guake/about.py:47 ../src/guake/gconfhandler.py:429
 #: ../src/guake/guake_app.py:185 ../src/guake/guake_app.py:365
 msgid "Guake Terminal"
-msgstr "Guake 终端"
+msgstr "Guake终端"
 
 #: ../src/guake/gconfhandler.py:430
 #, python-format
@@ -562,24 +561,24 @@ msgid ""
 "Please use Guake Preferences dialog to choose another key"
 msgstr ""
 "绑定 <b>%s</b> 键时出现问题。\n"
-"请使用 Guake 首选项对话框选择另外的键（托盘图标已启用）"
+"请使用Guake首选项对话框选择其他键"
 
 #: ../src/guake/guake_app.py:133
 msgid "Do you want to close the tab?"
-msgstr "您是否想关闭这个标签页？"
+msgstr "是否想关闭这个标签？"
 
 #: ../src/guake/guake_app.py:136
 msgid "Do you really want to quit Guake?"
-msgstr "您确实想退出 Guake？"
+msgstr "确实想退出Guake？"
 
 #: ../src/guake/guake_app.py:138
 msgid " and one tab open"
-msgstr " 且有一个标签页正打开着"
+msgstr " 且有1个标签正打开着"
 
 #: ../src/guake/guake_app.py:140
 #, python-brace-format
 msgid " and {0} tabs open"
-msgstr " 且有{0}个标签页正打开着"
+msgstr " 且有{0}个标签正打开着"
 
 #: ../src/guake/guake_app.py:143
 msgid "There are no processes running"
@@ -592,7 +591,7 @@ msgstr "<b>当前有一个进程正在运行</b>"
 #: ../src/guake/guake_app.py:147
 #, python-brace-format
 msgid "There are {0} processes still running"
-msgstr "<b>当前有 {0} 进程正在运行</b>"
+msgstr "<b>当前有{0}进程正在运行</b>"
 
 #: ../src/guake/guake_app.py:190
 msgid "guake-indicator"
@@ -611,17 +610,17 @@ msgid ""
 "Guake is now running,\n"
 "press <b>{!s}</b> to use it."
 msgstr ""
-"Guake 正在运行，\n"
+"Guake正在运行，\n"
 "按 <b>{!s}</b> 使用它。"
 
 #: ../src/guake/guake_app.py:670
 #, python-format
 msgid "Search on Web: '%s'"
-msgstr "在网络上搜索：‘%s’"
+msgstr "使用搜索引擎搜索：‘%s’"
 
 #: ../src/guake/guake_app.py:675
 msgid "Search on Web (no selection)"
-msgstr "在网络上搜索（没有选择文字）"
+msgstr "使用搜索引擎搜索（未选中）"
 
 #: ../src/guake/guake_app.py:683
 msgid "Open Link: '{}...'"
@@ -641,7 +640,7 @@ msgstr "终端"
 
 #: ../src/guake/guake_app.py:1462
 msgid "Rename tab"
-msgstr "重命名标签页"
+msgstr "重命名标签"
 
 #: ../src/guake/guake_app.py:1787
 msgid "Save to..."
@@ -653,7 +652,7 @@ msgstr "所有文件"
 
 #: ../src/guake/guake_app.py:1799
 msgid "Text and Logs"
-msgstr "文字和日志"
+msgstr "文本和日志"
 
 #: ../src/guake/guake_app.py:1817
 msgid "Find"
@@ -669,7 +668,7 @@ msgstr "后退"
 
 #: ../src/guake/main.py:69
 msgid "Put Guake in fullscreen mode"
-msgstr "设置 Guake 全屏显示"
+msgstr "设置Guake全屏显示"
 
 #: ../src/guake/main.py:73
 msgid "Toggles the visibility of the terminal window"
@@ -677,60 +676,60 @@ msgstr "切换终端窗口是否可见"
 
 #: ../src/guake/main.py:77
 msgid "Shows Guake main window"
-msgstr "显示 Guake 的主窗口"
+msgstr "显示Guake的主窗口"
 
 #: ../src/guake/main.py:81
 msgid "Hides Guake main window"
-msgstr "隐藏 Guake 主窗口"
+msgstr "隐藏Guake主窗口"
 
 #: ../src/guake/main.py:85
 msgid "Shows Guake preference window"
-msgstr "显示 Guake 首选项窗口"
+msgstr "显示Guake首选项窗口"
 
 #: ../src/guake/main.py:89
 msgid "Shows Guake's about info"
-msgstr "显示 Guake 的“关于”信息"
+msgstr "显示Guake的“关于”信息"
 
 #: ../src/guake/main.py:93
 msgid "Add a new tab (with current directory set to NEW_TAB)"
-msgstr "在当前目录打开新标签页"
+msgstr "在当前目录打开新标签"
 
 #: ../src/guake/main.py:97
 msgid "Select a tab (SELECT_TAB is the index of the tab)"
-msgstr "按照编号选择一个标签页"
+msgstr "按照序号选择一个标签"
 
 #: ../src/guake/main.py:101
 msgid "Return the selected tab index."
-msgstr "返回选中标签页的序号."
+msgstr "返回选中标签的序号。"
 
 #: ../src/guake/main.py:105
 msgid "Return the selected tab label."
-msgstr "返回选中标签页的名字."
+msgstr "返回选中标签的名字。"
 
 #: ../src/guake/main.py:109
 msgid "Execute an arbitrary command in the selected tab."
-msgstr "在选中标签页执行一个任意命令。"
+msgstr "在选中标签执行任意命令。"
 
 #: ../src/guake/main.py:113
 msgid "Specify the tab to rename. Default is 0."
-msgstr "指定重命名标签页。默认为0。"
+msgstr "指定重命名标签序号，默认为0。"
 
 #: ../src/guake/main.py:117
 msgid "Set the background image of the selected tab."
-msgstr "设置选中标签页的背景图片。"
+msgstr "设置选中标签的背景图片。"
 
 #: ../src/guake/main.py:122
 msgid "Set the hexadecimal (#rrggbb) background color of the selected tab."
-msgstr "设置选中标签页的背景颜色，格式为(#rrggbb)。"
+msgstr "设置选中标签的背景颜色，格式为(#rrggbb)。"
 
 #: ../src/guake/main.py:127
 msgid "Set the hexadecimal (#rrggbb) foreground color of the selected tab."
-msgstr "设置选中标签页的前景颜色，格式为(#rrggbb)。"
+msgstr "设置选中标签的前景颜色，格式为(#rrggbb)。"
 
 #: ../src/guake/main.py:133
 msgid ""
 "Rename the specified tab. Reset to default if TITLE is a single dash \"-\"."
-msgstr "重命名指定标签页，如果标题为 \"-\" ，设为默认。"
+msgstr "重命名指定标签，如果标题为 \"-\" ，设为默认。"
 
 #: ../src/guake/main.py:139
 msgid ""
@@ -739,7 +738,7 @@ msgstr "重命名当前标签，如果标题为 \"-\" ，设为默认。"
 
 #: ../src/guake/main.py:144
 msgid "Says to Guake go away =("
-msgstr "告诉 Guake 走开 =("
+msgstr "告诉Guake走开 =("
 
 #: ../src/guake/main.py:148
 msgid "Do not execute the start up script"
@@ -747,24 +746,24 @@ msgstr "启动时不执行脚本"
 
 #: ../src/guake/main.py:254
 msgid "Guake can not init!"
-msgstr "Guake 无法初始化！"
+msgstr "Guake无法初始化！"
 
 #: ../src/guake/main.py:255
 msgid ""
 "Gconf Error.\n"
 "Have you installed <b>guake.schemas</b> properly?"
 msgstr ""
-"Gconf 错误。\n"
+"Gconf错误。\n"
 "您已经正确安装了 <b>guake.schemas</b> 吗？"
 
 #. string to show in prefereces dialog for user shell option
 #: ../src/guake/prefs.py:67
 msgid "<user shell>"
-msgstr "<用户外壳>"
+msgstr "<用户Shell>"
 
 #: ../src/guake/prefs.py:77
 msgid "Toggle Guake visibility"
-msgstr "切换 Guake 是否可见"
+msgstr "切换Guake是否可见"
 
 #: ../src/guake/prefs.py:81
 msgid "Toggle Hide on Lose Focus"
@@ -772,19 +771,19 @@ msgstr "失去焦点后隐藏"
 
 #: ../src/guake/prefs.py:88
 msgid "Tab management"
-msgstr "标签页管理"
+msgstr "标签管理"
 
 #: ../src/guake/prefs.py:90
 msgid "New tab"
-msgstr "新标签页"
+msgstr "新建标签"
 
 #: ../src/guake/prefs.py:92
 msgid "Close tab"
-msgstr "关闭标签页"
+msgstr "关闭标签"
 
 #: ../src/guake/prefs.py:94
 msgid "Rename current tab"
-msgstr "重命名当前标签页"
+msgstr "重命名当前标签"
 
 #: ../src/guake/prefs.py:97
 msgid "Navigation"
@@ -792,63 +791,63 @@ msgstr "导航"
 
 #: ../src/guake/prefs.py:99
 msgid "Go to previous tab"
-msgstr "上一个标签页"
+msgstr "上一个标签"
 
 #: ../src/guake/prefs.py:101
 msgid "Go to next tab"
-msgstr "下一个标签页"
+msgstr "下一个标签"
 
 #: ../src/guake/prefs.py:103
 msgid "Move current tab left"
-msgstr "将当前标签页向左移动"
+msgstr "将当前标签向左移动"
 
 #: ../src/guake/prefs.py:105
 msgid "Move current tab right"
-msgstr "将当前标签页向右移动"
+msgstr "将当前标签向右移动"
 
 #: ../src/guake/prefs.py:107
 msgid "Go to first tab"
-msgstr "跳转到第一个标签页"
+msgstr "跳转到第一个标签"
 
 #: ../src/guake/prefs.py:109
 msgid "Go to second tab"
-msgstr "跳转到第二个标签页"
+msgstr "跳转到第二个标签"
 
 #: ../src/guake/prefs.py:111
 msgid "Go to third tab"
-msgstr "跳转到第三个标签页"
+msgstr "跳转到第三个标签"
 
 #: ../src/guake/prefs.py:113
 msgid "Go to fourth tab"
-msgstr "跳转到第四个标签页"
+msgstr "跳转到第四个标签"
 
 #: ../src/guake/prefs.py:115
 msgid "Go to fifth tab"
-msgstr "跳转到第五个标签页"
+msgstr "跳转到第五个标签"
 
 #: ../src/guake/prefs.py:117
 msgid "Go to sixth tab"
-msgstr "跳转到第六个标签页"
+msgstr "跳转到第六个标签"
 
 #: ../src/guake/prefs.py:119
 msgid "Go to seventh tab"
-msgstr "跳转到第七个标签页"
+msgstr "跳转到第七个标签"
 
 #: ../src/guake/prefs.py:121
 msgid "Go to eighth tab"
-msgstr "跳转到第八个标签页"
+msgstr "跳转到第八个标签"
 
 #: ../src/guake/prefs.py:123
 msgid "Go to ninth tab"
-msgstr "跳转到第九个标签页"
+msgstr "跳转到第九个标签"
 
 #: ../src/guake/prefs.py:125
 msgid "Go to tenth tab"
-msgstr "跳转到第十个标签页"
+msgstr "跳转到第十个标签"
 
 #: ../src/guake/prefs.py:127
 msgid "Go to last tab"
-msgstr "跳转到最后一个标签页"
+msgstr "跳转到最后一个标签"
 
 #: ../src/guake/prefs.py:132
 msgid "Zoom out"
@@ -880,7 +879,7 @@ msgstr "减少透明度"
 
 #: ../src/guake/prefs.py:146
 msgid "Toggle transparency"
-msgstr "透明开关"
+msgstr "切换透明"
 
 #: ../src/guake/prefs.py:149
 msgid "Clipboard"
@@ -937,7 +936,7 @@ msgid ""
 msgstr ""
 "无法使用快捷键 \"%s\" ，因为使用该键将导致无法输入。\n"
 "\n"
-"请尝试同时用诸如 Control，Alt 或 Shift 键。\n"
+"请尝试同时用诸如Control，Alt或Shift键。\n"
 
 #: guake/data/prefs.glade:264
 msgid "Never"
@@ -957,7 +956,7 @@ msgstr "如果打开则重新获得焦点"
 
 #: guake/data/prefs.glade:865
 msgid "Custom command file path:"
-msgstr "自定义命令文件路径:"
+msgstr "自定义命令文件路径："
 
 #: guake/data/prefs.glade:1423
 msgid "Block"
@@ -965,11 +964,11 @@ msgstr "块状"
 
 #: guake/data/prefs.glade:1424
 msgid "I-Beam"
-msgstr "细线状"
+msgstr "I状"
 
 #: guake/data/prefs.glade:1425
 msgid "Underline"
-msgstr "下划线状"
+msgstr "下划线"
 
 #: guake/data/prefs.glade:1443
 msgid "Follow GTK+ setting"
@@ -993,11 +992,11 @@ msgid ""
 "For example, for sublime, use <b>subl %(file_path)s:%(line_number)s</b>\n"
 "</i></small>"
 msgstr ""
-"<small><i>在打开编辑器的命令中使用下列元素:\n"
-"<b>%(file_path)s</b>: 被点击的文件路径\n"
-"<b>%(line_number)s</b>: 如果你的编辑器支持，你可以直接打开文件并跳到指定行.\n"
+"<small><i>在打开编辑器的命令行设置中，可使用以下元素:\n"
+" - <b>%(file_path)s</b>: 被点击的文件路径\n"
+" - <b>%(line_number)s</b>: 如果编辑器支持，则可打开文件并跳转到指定的行号\n"
 "\n"
-"举个例子，对于sumlime，使用<b>subl %(file_path)s:%(line_number)s</b>\n"
+"比如，对于 sublime, 可以使用 <b>subl %(file_path)s:%(line_number)s</b>\n"
 "</i></small>"
 
 #: guake/data/prefs.glade:2442 guake/data/prefs.glade:2462
@@ -1014,11 +1013,11 @@ msgstr "Control-H"
 
 #: guake/data/prefs.glade:2665
 msgid "On start:"
-msgstr "启动时:"
+msgstr "启动时："
 
 #: guake/data/guake-prefs.desktop:8
 msgid "Configure your Guake sessions"
-msgstr "配置你的Guake会话"
+msgstr "配置您的Guake会话"
 
 #: guake/data/guake-prefs.desktop:15 guake/data/guake.desktop:18
 msgid "guake"
@@ -1050,15 +1049,15 @@ msgstr "<b>主窗口选项</b>"
 
 #: guake/data/prefs.glade:770
 msgid "Horizontal Alignment:"
-msgstr "横向对齐:"
+msgstr "横向对齐："
 
 #: guake/data/prefs.glade:855
 msgid "Height:"
-msgstr "高度:"
+msgstr "高度："
 
 #: guake/data/prefs.glade:868
 msgid "Width:"
-msgstr "宽度:"
+msgstr "宽度："
 
 #: guake/data/prefs.glade:913
 msgid "<b>Geometry</b>"
@@ -1096,15 +1095,15 @@ msgstr "显示Guake版本并退出"
 
 #: guake/data/prefs.glade:93
 msgid "<span size=\"18000\"><b>Guake properties</b></span>"
-msgstr "<span size=\"18000\"><b>Guake 属性</b></span>"
+msgstr "<span size=\"18000\"><b>Guake属性</b></span>"
 
 #: guake/data/prefs.glade:107
 msgid "Customize behavior and appearance of Guake!"
-msgstr "自定义 Guake 的行为和外观！"
+msgstr "自定义Guake的行为和外观！"
 
 #: guake/data/prefs.glade:929
 msgid "Displacement in pixels"
-msgstr "以像素为單位进行位移"
+msgstr "以像素为单位进行位移"
 
 #: guake/main.py:73
 msgid "Enable verbose logging"
@@ -1112,19 +1111,19 @@ msgstr "启动详细日志记录"
 
 #: guake/guake_app.py:680
 msgid "Quick Open: '{!s}...'"
-msgstr "快速打开: '{!s}...'"
+msgstr "快速打开：'{!s}...'"
 
 #: guake/guake_app.py:683
 msgid "Quick Open: {!s}"
-msgstr "快速打开: {!s}"
+msgstr "快速打开：{!s}"
 
 #: guake/guake_app.py:691
 msgid "Open Link: '{!s}...'"
-msgstr "打开链接: '{!s}...'"
+msgstr "打开链接：'{!s}...'"
 
 #: guake/guake_app.py:694
 msgid "Open Link: {!s}"
-msgstr "打开链接: '{!s}...'"
+msgstr "打开链接：'{!s}...'"
 
 #: guake/data/prefs.glade:2175
 msgid ""
@@ -1134,17 +1133,17 @@ msgid ""
 "VTE with PCRE2 enabled ! To use Quick Open, you <b>must select the text</b> "
 "before using Ctrl+click</i>."
 msgstr ""
-"<i><b>警告</b>:你的系统看起来拥有一个禁止了VTE的PCRE2，阻止了像Guake等应用使"
+"<i><b>警告</b>:您的系统看起来拥有一个禁止了VTE的PCRE2，阻止了像Guake等应用使"
 "用正则表达式注册“matchers”。请设法获得一个新的使能了VTE的PCRE2！为了使用快速"
-"打开功能，你在使用 Ctrl+单击之前<b>必须先选中文字</b></i>。"
+"打开功能，您在使用Ctrl+单击之前<b>必须先选中文字</b></i>。"
 
 #: guake/guake_app.py:680
 msgid "Quick Open: {!s}..."
-msgstr "快速打开: {!s}..."
+msgstr "快速打开：{!s}..."
 
 #: guake/guake_app.py:691
 msgid "Open Link: {!s}..."
-msgstr "Open Link: {!s}..."
+msgstr "打开连接：{!s}..."
 
 #: guake/guake_app.py:688
 msgid "Quick Open..."
@@ -1156,7 +1155,7 @@ msgstr "登录时启动Guake"
 
 #: guake/data/prefs.glade:363
 msgid "Gtk Theme:"
-msgstr "Gtk 主题:"
+msgstr "Gtk主题："
 
 #: guake/data/prefs.glade:387
 msgid "Prefer dark theme"
@@ -1169,13 +1168,13 @@ msgstr "自定义命令"
 #: guake/main.py:184
 msgid ""
 "Specify the tab to rename. Default is 0. Can be used to select tab by UUID."
-msgstr "指定要重命名的tab。默认是0。可被用于根据UUID选择tab。"
+msgstr "指定要重命名的标签。默认是0。可以根据UUID选择标签。"
 
 #: guake/main.py:212
 msgid ""
 "Rename the specified tab by --tab-index. Reset to default if TITLE is a "
 "single dash \"-\"."
-msgstr "根据tab序号重命名指定的tab。如果是“-”则重置为默认值。"
+msgstr "使用--tab-index重命名指定标签。如果是“-”则重置为默认值。"
 
 #: data/search.glade:138
 msgid "Search forward"
@@ -1187,11 +1186,11 @@ msgstr "匹配项"
 
 #: data/search.glade:186
 msgid "Current search direction: Backward"
-msgstr "当前搜索方向:向后"
+msgstr "当前搜索方向：向后"
 
 #: data/prefs.glade:680
 msgid "Set window title to current tab name"
-msgstr "将窗口名字设置为当前tab名"
+msgstr "将窗口名字设置为当前标签名称"
 
 #: guake/menus.py:48
 msgid "Copy Url"
@@ -1199,7 +1198,7 @@ msgstr "拷贝Url"
 
 #: guake/menus.py:62
 msgid "Split ―"
-msgstr "分割 ―"
+msgstr "分割 -"
 
 #: guake/menus.py:65
 msgid "Split  "
@@ -1215,19 +1214,19 @@ msgstr "分割管理器"
 
 #: guake/prefs.py:142
 msgid "Split tab vertical"
-msgstr "纵向分割tab"
+msgstr "纵向分割标签"
 
 #: guake/prefs.py:146
 msgid "Split tab horizontal"
-msgstr "横向分割tab"
+msgstr "横向分割标签"
 
 #: guake/prefs.py:154
 msgid "Focus terminal above"
-msgstr "强制退出中断"
+msgstr "将终端置于最上方"
 
 #: guake/prefs.py:158
 msgid "Focus terminal below"
-msgstr "窗口停靠到底部"
+msgstr "将终端置于最下方"
 
 #: guake/prefs.py:162
 msgid "Focus terminal on the left"
@@ -1253,10 +1252,6 @@ msgstr "将分割线向右移动"
 msgid "Move the terminal split handle left"
 msgstr "将分割线向左移动"
 
-#: guake/menus.py:65
-msgid "Split ｜"
-msgstr "分割 ｜"
-
 #: guake/menus.py:72
 msgid "Save content..."
 msgstr "保存内容..."
@@ -1265,36 +1260,36 @@ msgstr "保存内容..."
 msgid ""
 "This might not work on all shells, make sure that your shell supports the --"
 "login option"
-msgstr "这可能无法在所有shell上正常工作，请确保你的shell支持--login选项"
+msgstr "这可能无法在所有Shell上正常工作，请确保您的Shell支持--login选项"
 
 #: guake/prefs.py:128
 msgid "New tab in home directory"
-msgstr "在主目录打开新标签页"
+msgstr "在主目录打开新标签"
 
 #: guake/dialogs.py:56
 #, python-brace-format
 msgid " on {0} workspaces"
-msgstr " 在 {0} 工作区"
+msgstr " 在{0}工作区"
 
 #: guake/main.py:211
 msgid "Change Guake palette scheme"
-msgstr "更改Guake 调色板方案"
+msgstr "更改Guake调色板方案"
 
 #: data/prefs.glade:331
 msgid "Use workspace-specific tab sets (requires restart)"
-msgstr "使用特定于工作空间的标签页集合 （需要重启）"
+msgstr "使用特定于工作空间的标签集合（需要重启）"
 
 #: guake/main.py:175
 msgid "Split the selected tab vertically."
-msgstr "垂直分割所选标签页。"
+msgstr "垂直分割所选标签。"
 
 #: guake/main.py:183
 msgid "Split the selected tab horizontally."
-msgstr "水平分割所选标签页。"
+msgstr "水平分割所选标签。"
 
 #: data/prefs.glade:348
 msgid "Show close buttons for tabs"
-msgstr "显示标签页的关闭按钮"
+msgstr "显示标签的关闭按钮"
 
 #: data/prefs.glade:1682
 msgid "Bold text is also bright"
@@ -1318,16 +1313,16 @@ msgstr "搜索终端"
 
 #: guake/main.py:278
 msgid "Save Guake preferences to this filename"
-msgstr ""
+msgstr "保存Guake的首选项到文件"
 
 #: guake/main.py:286
 msgid "Restore Guake preferences from this file"
-msgstr ""
+msgstr "从文件恢复Guake的首选项"
 
 #: guake/guake_app.py:1192
 #, python-brace-format
 msgid "Your session.json file is broken, backup to {session_filename}.bak"
-msgstr ""
+msgstr "您的session.json文件已损坏，备份至{session_filename}.bak"
 
 #: guake/guake_app.py:1228
 #, python-brace-format
@@ -1335,32 +1330,35 @@ msgid ""
 "Your session.json schema is broken, backup to {0}.bak,and error message has "
 "been saved to {0}.log.err"
 msgstr ""
+"您的session.json文件已损坏，备份至{0}.bak，错误信息被"
+"保存在{0}.log.err"
 
 #: guake/guake_app.py:1239
 msgid "Your tabs has been restored!"
-msgstr ""
+msgstr "您的标签已经恢复！"
 
 #: data/prefs.glade:190
 msgid "Restore previous session (tabs)"
-msgstr ""
+msgstr "恢复之前的会话（标签）"
 
 #: data/prefs.glade:204
 msgid "Enable notification when restore tabs"
-msgstr ""
+msgstr "启用在恢复标签时的通知"
 
 #: data/prefs.glade:218
 msgid "Automatically save session when the tabs has been modified"
-msgstr ""
+msgstr "当标签被修改时自动保存会话"
 
 #: data/prefs.glade:238
 msgid "Startup & Tabs (Experiment)"
-msgstr ""
+msgstr "启动与标签"
 
 #: guake/guake_app.py:1192
 #, python-brace-format
 msgid ""
 "Your {session_filename} file is broken, backup to {session_filename}.bak"
 msgstr ""
+"您的{session_filename}文件已损坏，备份至{session_filename}.bak"
 
 #: guake/guake_app.py:1227
 #, python-brace-format
@@ -1368,6 +1366,8 @@ msgid ""
 "Your {session_filename} schema is broken, backup to {0}.bak,and error "
 "message has been saved to {session_filename}.log.err"
 msgstr ""
+"您的{session_filename}文件已损坏，备份至{0}.bak，错误信息被"
+"保存在{session_filename}.log.err"
 
 #: guake/guake_app.py:1227
 #, python-brace-format
@@ -1375,6 +1375,8 @@ msgid ""
 "Your {session_filename} schema is broken, backup to {session_filename}.bak,"
 "and error message has been saved to {session_filename}.log.err."
 msgstr ""
+"您的{session_filename}文件已损坏，备份至{session_filename}.bak，"
+"错误信息被保存在{session_filename}.log.err。"
 
 #: guake/guake_app.py:1227
 #, python-brace-format
@@ -1382,6 +1384,8 @@ msgid ""
 "Your {session_filename} schema is broken, backup to {session_filename}.bak, "
 "and error message has been saved to {session_filename}.log.err."
 msgstr ""
+"您的{session_filename}文件已损坏，备份至{session_filename}.bak，"
+"错误信息被保存在{session_filename}.log.err。"
 
 #: guake/notebook.py:317
 msgid ""
@@ -1390,10 +1394,14 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
+"您正准备恢复所有标签！\n"
+"意味着您所有的终端与页面都将被替换掉。\n"
+"\n"
+"是否继续？"
 
 #: guake/main.py:296
 msgid "Show support infomations"
-msgstr ""
+msgstr "显示支持信息"
 
 #: guake/guake_app.py:1240
 #, python-brace-format
@@ -1401,132 +1409,140 @@ msgid ""
 "Tabs session restore abort.\n"
 "Your session file ({session_filename}) missing schema_version as key"
 msgstr ""
+"终止标签的会话恢复。\n"
+"您的会话文件（{session_filename}）缺少 schema_version 键"
 
 #: guake/guake_app.py:1252
 #, python-brace-format
 msgid ""
 "Tabs session restore abort.\n"
 "Your session file schema version is higher than current version "
-"({session_file_schema_version} > {current_schema_version})."
+"（{session_file_schema_version} > {current_schema_version}）."
 msgstr ""
+"终止标签的会话恢复。\n"
+"您的会话文件的版本高于当前版本 "
+"({session_file_schema_version} > {current_schema_version})。"
 
 #: guake/data/prefs.glade:409
 msgid "Use workspace-specific tab sets (requires restart, only work on X11)"
-msgstr ""
+msgstr "使用特定于工作空间的标签集合（需要重启，仅支持 X11）"
+
 
 #: guake/data/prefs.glade:809
 msgid "Hide tabbar when fullscreen"
-msgstr ""
+msgstr "在全屏模式下隐藏标签栏"
 
 #: guake/data/prefs.glade:739
 msgid "Display as tab names:"
-msgstr ""
+msgstr "标签名称："
 
 #: guake/data/prefs.glade:753
 msgid "Full Path"
-msgstr ""
+msgstr "全路径"
 
 #: guake/data/prefs.glade:754
 msgid "Abbreviated Path"
-msgstr ""
+msgstr "路径缩写"
 
 #: guake/data/prefs.glade:755
 msgid "Last Segment"
-msgstr ""
+msgstr "最后一个片段"
 
 #: guake/main.py:99
 msgid "Put Guake out from fullscreen mode"
-msgstr ""
+msgstr "退出Guake全屏模式"
 
 #: guake/main.py:189
 msgid ""
 "Select a specific terminal in a split tab. Only useful with split terminals "
 "(TERMINAL_INDEX is the index of the tab)"
 msgstr ""
+"在分割标签中选择指定的终端。仅在有分割终端时有用"
+"（TERMINAL_INDEX 是标签的序号）"
 
 #: guake/main.py:199
 msgid "Return the selected terminal index."
-msgstr ""
+msgstr "返回选中标签的序号。"
 
 #: guake/main.py:259
 msgid "Set the hexadecimal (#rrggbb) background color of the current terminal."
-msgstr ""
+msgstr "设置当前终端的背景颜色，格式为(#rrggbb)。"
 
 #: guake/main.py:268
 msgid "Set the hexadecimal (#rrggbb) foreground color of the current terminal."
-msgstr ""
+msgstr "设置当前终端的前景颜色，格式为(#rrggbb)。"
 
 #: guake/main.py:285
 msgid "Set colors from settings."
-msgstr ""
+msgstr "从首选项中设置颜色。"
 
 #: guake/main.py:293
 msgid "Set colors of the current terminal from settings."
-msgstr ""
+msgstr "从首选项中设置当前终端的颜色。"
 
 #: guake/main.py:358
 msgid "Show support infomation"
-msgstr ""
+msgstr "显示支持信息"
 
 #: guake/menus.py:26
 msgid "Reset custom colors"
-msgstr ""
+msgstr "重置自定义颜色"
 
 #: guake/dialogs.py:101
 msgid "Do you want to reset custom colors for this tab?"
-msgstr ""
+msgstr "是否要重置此标签的自定义颜色？"
 
 #: guake/data/prefs.glade:835
 msgid "New tabs appear after the current tab"
-msgstr ""
+msgstr "新标签显示在当前标签之后"
 
 #: guake/prefs.py:186
 msgid "Search selected text on web"
-msgstr ""
+msgstr "搜索引擎搜索选中文本"
 
 #: guake/menus.py:80
 msgid "Copy URL"
-msgstr ""
+msgstr "拷贝URL"
 
 #: guake/main.py:362
 msgid "Show support information"
-msgstr ""
+msgstr "显示支持信息"
 
 #: guake/data/prefs.glade:19
 msgid "Scale"
-msgstr ""
+msgstr "缩放"
 
 #: guake/data/prefs.glade:23
 msgid "Tile"
-msgstr ""
+msgstr "平铺"
 
 #: guake/data/prefs.glade:31
 msgid "Stretch"
-msgstr ""
+msgstr "拉伸"
 
 #: guake/data/prefs.glade:472
 msgid "Copy on select"
-msgstr ""
+msgstr "当选中时复制"
 
 #: guake/data/prefs.glade:517
 msgid "Use system default theme"
-msgstr ""
+msgstr "使用系统默认主题"
 
 #: guake/data/prefs.glade:547
 msgid "GTK Theme:"
-msgstr ""
+msgstr "GTK主题"
 
 #: guake/data/prefs.glade:612
 msgid "Please select a JSON file"
-msgstr ""
+msgstr "请选择一个Json文件"
 
 #: guake/data/prefs.glade:938
 msgid "Hide tab bar if there is only one tab"
-msgstr ""
+msgstr "如果只有一个标签则隐藏标签栏"
 
 #: guake/data/prefs.glade:1929
 msgid "Background image: "
-msgstr ""
+msgstr "背景图片"
 
 #: guake/data/prefs.glade:2730
 msgid ""
@@ -1539,12 +1555,20 @@ msgid ""
 "Text.\n"
 "</i></small>"
 msgstr ""
+"<small><i>在打开编辑器命令行中使用以下元素：\n"
+"- <b>%(file_path)s</b>：被点击的文件的路径\n"
+"- <b>%(line_number)s</b>：如果您的编辑器支持，您可以直接打开屏幕上找到的文件到其指定的行号\n"
+"\n"
+"例如, 对Sublime Text使用 <b>subl %(file_path)s:%(line_number)s</b>"
+"Text.\n"
+"</i></small>"
 
 #: guake/data/prefs.glade:2879
 msgid ""
 "<small>In this dialog you can attach your own command or script to various "
 "Guake events</small>"
 msgstr ""
+"<small>在这个对话框中，您可以将自己的命令或脚本附加到各种Guake事件上</small>"
 
 #: guake/data/prefs.glade:3008
 msgid ""
@@ -1553,37 +1577,58 @@ msgid ""
 "applications and operating systems that expect different terminal behavior.</"
 "i></small>"
 msgstr ""
+"<small><i><b>注意：</b>这些选项可能会导致一些程序行为异常。仅仅是允许您暂时应"
+"对某程序和期望不同终端行为的操作系统。</i></small>"
 
 #: guake/prefs.py:144
 msgid "Go to previous tab (alternative)"
-msgstr ""
+msgstr "上一个标签（代替）"
 
 #: guake/prefs.py:146
 msgid "Go to next tab (alternative)"
-msgstr ""
+msgstr "下一个标签（代替）"
 
 #: guake/menus.py:97
 msgid "Split |"
-msgstr ""
+msgstr "分割 |"
 
 #: guake/main.py:130
 msgid "Return 1 if Guake is visible, 0 otherwise"
-msgstr ""
+msgstr "如果Guake可见，则返回1，否则返回0"
 
 #: guake/data/prefs.glade:1003
 msgid "Lazy hide on lose focus"
-msgstr ""
+msgstr "在失去焦点时延迟隐藏"
 
 #: guake/data/prefs.glade:2135
 msgid "Line Height Scale (VTE >= 0.52)"
-msgstr ""
+msgstr "行高缩放比例（VTE >= 0.52）"
 
 #: guake/data/prefs.glade:2172
 msgid "Line Width Scale (VTE >= 0.52)"
-msgstr ""
+msgstr "行宽缩放比例（VTE >= 0.52）"
 
-#~ msgid "0 means no size limit"
-#~ msgstr "0表示没有大小限制"
+msgid "Search Engine:"
+msgstr "搜索引擎："
+
+msgid "Custom Search:"
+msgstr "自定义搜索："
+
+msgid "New tab in current directory"
+msgstr "在当前目录打开新标签"
+
+#: guake/data/prefs.glade:275
+msgid "Load settings from `cwd`/.guake.yml"
+msgstr "从`cwd`（当前目录）/.guake.yml加载设置"
+
+msgid "always on primary"
+msgstr "总是主显示器"
+
+msgid "Select all"
+msgstr "全选"
+
+msgid "Open URL under terminal cursor"
+msgstr "在终端光标下打开URL链接"
 
 #~ msgid "key binding error"
 #~ msgstr "键绑定出错"
